@@ -1786,17 +1786,17 @@ a.phaohoa{
     margin-top: -40px;
     transition: 0.5s;
 }
-.slider3:hover .title h1{
+.slider3 .title h1{
     animation: title 2s forwards;
 }
 .container-phaohoa{
     overflow: hidden;
 }
 .container-phaohoa .title-phaohoa{
-    margin-top: -48px;
+    margin-top: -50px;
     transition: 0.5s;
 }
-.slider3:hover .title-phaohoa{
+.slider3 .title-phaohoa{
     /*animation: title 2s forwards;*/
     animation: fixedContent 1s 4s forwards;
 }
@@ -1816,7 +1816,7 @@ a.phaohoa{
     opacity: 0;
     transition: 1s;
 }
-.slider3:hover .content p{
+.slider3 .content p{
     animation: bodyContent 2s 1s forwards;
 }
 @keyframes bodyContent{
@@ -1839,7 +1839,7 @@ a.phaohoa{
     padding: 20px 0px 0px 20px;
     margin-top: -50px;
 }
-.slider3:hover .content h3{
+.slider3 .content h3{
     animation: fixedContent 2s 2s forwards;
 }
 @keyframes fixedContent{
@@ -2056,7 +2056,7 @@ a.phaohoa{
         height: 170px;
     }
     .mail{
-        margin-top: 370px;
+        margin-top: 400px;
         z-index: 1000000000000000;
     }
     .slider3 .box-content{
