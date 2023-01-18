@@ -15,23 +15,6 @@ body{
     height: 100vh;
     overflow: hidden;
 }
-.container-phaohoa{
-    margin-top: 50px;
-    text-align: center;
-}
-.title-phaohoa{
-    font-size: 15px;
-   padding-left: 5px;
-    color: black;
-    text-align: center;
-    font-family: 'Dancing Script', cursive;
-}
-a.phaohoa{
-    text-decoration: none;
-    font-size: 15px;
-   text-align: center;
-   
-}
 .box-slider{
     width: 100%;
     height: 100%;
@@ -1786,19 +1769,8 @@ a.phaohoa{
     margin-top: -40px;
     transition: 0.5s;
 }
-.slider3 .title h1{
+.slider3:hover .title h1{
     animation: title 2s forwards;
-}
-.container-phaohoa{
-    overflow: hidden;
-}
-.container-phaohoa .title-phaohoa{
-    margin-top: -50px;
-    transition: 0.5s;
-}
-.slider3 .title-phaohoa{
-    /*animation: title 2s forwards;*/
-    animation: fixedContent 1s 4s forwards;
 }
 @keyframes title{
     0%{
@@ -1816,7 +1788,7 @@ a.phaohoa{
     opacity: 0;
     transition: 1s;
 }
-.slider3 .content p{
+.slider3:hover .content p{
     animation: bodyContent 2s 1s forwards;
 }
 @keyframes bodyContent{
@@ -1839,7 +1811,7 @@ a.phaohoa{
     padding: 20px 0px 0px 20px;
     margin-top: -50px;
 }
-.slider3 .content h3{
+.slider3:hover .content h3{
     animation: fixedContent 2s 2s forwards;
 }
 @keyframes fixedContent{
@@ -2056,7 +2028,7 @@ a.phaohoa{
         height: 170px;
     }
     .mail{
-        margin-top: 400px;
+        margin-top: 370px;
         z-index: 1000000000000000;
     }
     .slider3 .box-content{
@@ -2117,10 +2089,10 @@ a.phaohoa{
 }
 .box-content .right .content .fixedContent{
     width: 200px;
-    margin-left: 20px;
+    margin-left: 50px;
 }
 .box-content .right .content .fixedContent h3{
-   font-size: 13px;
+   font-size: 15px;
 }
  }
 
