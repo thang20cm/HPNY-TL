@@ -1786,7 +1786,7 @@ a.phaohoa{
     margin-top: -40px;
     transition: 0.5s;
 }
-.slider3:hover .title h1{
+.slider3 .title h1{
     animation: title 2s forwards;
 }
 .container-phaohoa{
@@ -1796,7 +1796,7 @@ a.phaohoa{
     margin-top: -50px;
     transition: 0.5s;
 }
-.slider3:hover .title-phaohoa{
+.slider3 .title-phaohoa{
     animation: fixedContent 1s 4s forwards;
 }
 
